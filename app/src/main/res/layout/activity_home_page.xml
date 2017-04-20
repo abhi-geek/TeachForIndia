@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.teachforindia.homePage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:src="@drawable/teach"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/imageView3" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="283dp"
+        android:layout_height="79dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Teach for India Fellowship and Volunteers Opportunities"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  In 2006, 17 years after starting the Akanksha Foundation, Shaheen felt compelled to address the issue of educational inequity at scale. As she thought through the solution, she believed that the answer lay in a people’s movement that needed to come together to provide every child in India an excellent education."
+        android:textAlignment="textStart"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/textView5"
+        android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  In 2007, Shaheen met with Wendy Kopp, the Founder of Teach For America and was struck by the idea of leadership being at the core of the solution. In 2009, Teach For India welcomed our first cohort, the Class of 2009, to the Fellowship. The 87 “niners” formed the beginning of what Shaheen hoped would become a nationwide movement of diverse leaders.
+In 2011, our Niners graduated from the Fellowship and became the first cohort in our Alumni movement. Through their work as Alumni, the hope was that they would become lifelong leaders for equity. Our first cohort of Alumni went into teaching, teacher training, school leadership, and government policy.
+Today, we have 1250 Fellows working relentlessly in the short-term to change the lives of students in their classrooms and become leaders for change themselves. And we have 1500 Alumni who are collectively fuelling the larger movement towards our vision.
+The problem of educational inequity cannot be solved alone. Our story is in the relentless efforts of our Fellows, Alumni, staff, partners and supporters, and our children. Together, we can redraw India to be the country we want it to be."
+            android:textAlignment="textStart"
+            android:textSize="13sp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="217dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/textView3" />
+
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClickHandler"
+            android:text="I want to Volunteer"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView5" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

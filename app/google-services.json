@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1077946955609",
+    "firebase_url": "https://teach-for-india-e3acb.firebaseio.com",
+    "project_id": "teach-for-india-e3acb",
+    "storage_bucket": "teach-for-india-e3acb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077946955609:android:d1f6920381b1524b",
+        "android_client_info": {
+          "package_name": "com.example.admin.teachforindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077946955609-j268994cnfoqu8bj3g9tffa36adfdvfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.teachforindia",
+            "certificate_hash": "5dd82a2517a63fd5c0324b727fd3b9f5f4372bf0"
+          }
+        },
+        {
+          "client_id": "1077946955609-sepeqld6ucrglhrnig3q72dh6isgtc0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDycioPk4HKOIfZio2g4LMOoCaM8CupbNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077946955609-sepeqld6ucrglhrnig3q72dh6isgtc0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
